@@ -11,6 +11,64 @@ Conceptual Connection to Transformer-like Mechanisms: We'll discuss how the Neng
 Highlighting the Challenges and Future Directions: We'll clearly outline the immense gap that still exists and what research directions are needed to move towards true spiking LLMs.
 
 
+## The created example output from the code: Loaded GloVe embeddings with dimension: 50
+Input Prompt Realistic Parse Tree (spaCy):
+{'root': {'children': [{'children': [{'children': [],
+                                      'dep': 'det',
+                                      'pos': 'DET',
+                                      'token': 'The'}],
+                        'dep': 'nsubj',
+                        'pos': 'NOUN',
+                        'token': 'cat'},
+                       {'children': [{'children': [{'children': [],
+                                                    'dep': 'det',
+                                                    'pos': 'DET',
+                                                    'token': 'the'}],
+                                      'dep': 'pobj',
+                                      'pos': 'NOUN',
+                                      'token': 'mat'}],
+                        'dep': 'prep',
+                        'pos': 'ADP',
+                        'token': 'on'},
+                       {'children': [],
+                        'dep': 'punct',
+                        'pos': 'PUNCT',
+                        'token': '.'}],
+          'dep': 'ROOT',
+          'pos': 'VERB',
+          'token': 'sat'}}
+
+Output Text Realistic Parse Tree (spaCy):
+{'root': {'children': [{'children': [{'children': [],
+                                      'dep': 'det',
+                                      'pos': 'DET',
+                                      'token': 'A'}],
+                        'dep': 'nsubj',
+                        'pos': 'NOUN',
+                        'token': 'dog'},
+                       {'children': [],
+                        'dep': 'advmod',
+                        'pos': 'ADV',
+                        'token': 'quickly'},
+                       {'children': [{'children': [{'children': [],
+                                                    'dep': 'det',
+                                                    'pos': 'DET',
+                                                    'token': 'the'}],
+                                      'dep': 'pobj',
+                                      'pos': 'NOUN',
+                                      'token': 'park'}],
+                        'dep': 'prep',
+                        'pos': 'ADP',
+                        'token': 'to'},
+                       {'children': [],
+                        'dep': 'punct',
+                        'pos': 'PUNCT',
+                        'token': '.'}],
+          'dep': 'ROOT',
+          'pos': 'VERB',
+          'token': 'ran'}}
+
+
 
 ## The conclusions: 
 
